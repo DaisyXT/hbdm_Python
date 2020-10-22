@@ -17,10 +17,13 @@ ORDER_TYPE_MARKET = "MARKET"  # Market order.
 ORDER_TYPE_MAKER = "POST_ONLY"  # Market order.
 ORDER_TYPE_FOK = "FOK"  # FOK order.
 ORDER_TYPE_IOC = "IOC"  # IOC order.
+ORDER_TYPE_STOP = "STOP" # Stop Limit order
 
 # Order direction.
 ORDER_ACTION_BUY = "BUY"  # Buy
 ORDER_ACTION_SELL = "SELL"  # Sell
+ORDER_ACTION_CREATE = "CREAT" # CReate an ETP
+ORDER_ACTION_REDEMPT = "REDEMPT" # Redempt an ETP
 
 # Order status.
 ORDER_STATUS_NONE = "NONE"  # New created order, no status.
